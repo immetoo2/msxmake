@@ -1,0 +1,18 @@
+;--- MAC.MAC -----------------------------------------------------------------
+; Assembly library for MAIN.COM
+; The MSX Maniac (pd) May-1995
+
+;--- ldIX() ------------------------------------------------------------------
+;funcion: Load IX register
+;input:   integer in HL
+;output:  IX register loaded
+;return:  none
+
+	public ldIX@
+
+ldIX@:	push hl
+	pop ix
+	ret
+
+	end
+
