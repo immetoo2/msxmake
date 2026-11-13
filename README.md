@@ -1,6 +1,8 @@
 # MSXMake
 
-Buildable version of make for MSX from 1994 created by the MSX Maniac.
+Source dump of make for MSX from 1994 created by the MSX Maniac.
+
+TODO: This is some random code that waits for a public docker image to build msx software here too.
 
 ## Description
 
